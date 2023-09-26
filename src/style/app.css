@@ -1,0 +1,25 @@
+.app{
+    max-width: max-content;
+    margin: 0 auto;
+    padding-top: 64px;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container{
+    min-width: 100vw;
+    min-height: calc(100vh - 64px);
+}
+
+.header{
+    margin-bottom: 20px;
+    position: relative;
+    position: fixed;
+    top:0;
+    transform: translateX(-50%);
+    padding: 24px 24px 12px 24px;
+    width: 100%;
+    z-index: 2;
+    background-color: black;
+    display: grid;
+}
